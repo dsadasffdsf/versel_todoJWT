@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(
   cors({
     credentials: true,
-    origin: '*',
+    origin: 'https://dsadasffdsf.github.io',
   }),
 );
 app.use('/api', router);
